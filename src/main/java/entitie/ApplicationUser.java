@@ -1,6 +1,4 @@
-package entities;
-
-import org.hibernate.annotations.Generated;
+package entitie;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

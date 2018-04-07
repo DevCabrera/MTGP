@@ -1,11 +1,12 @@
-package entities;
+package controller;
 
+import entitie.ApplicationUser;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import repositories.ApplicationUserRepository;
+import repositorie.ApplicationUserRepository;
 
 @RestController
 @RequestMapping("/user")
